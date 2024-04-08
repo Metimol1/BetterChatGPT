@@ -45,7 +45,7 @@ export const modelOptions: ModelOptions[] = [
   'gemini-pro'
 ];
 
-export const defaultModel = 'gpt-3.5-turbo';
+export const defaultModel = 'claude-3-sonnet';
 
 export const modelMaxToken = {
   'gpt-3.5-turbo': 4096,
