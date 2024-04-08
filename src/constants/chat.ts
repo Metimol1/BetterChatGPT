@@ -47,7 +47,7 @@ export const modelOptions: ModelOptions[] = [
 
 export const defaultModel = 'claude-3-sonnet';
 
-const modelMaxToken = {
+export const modelMaxToken = {
   "starcoder2-15b": 5120,
   "openchat_3.5": 4096,
   "lzlv_70b_fp16_hf": 7168,
@@ -75,7 +75,7 @@ const modelMaxToken = {
   "gemini-pro": 8192
 };
 
-const modelCost = {
+export const modelCost = {
   "starcoder2-15b": {
     prompt: { price: 0.0, unit: 1000 },
     completion: { price: 0.0, unit: 1000 },
