@@ -18,17 +18,31 @@ Carefully heed the user's instructions.
 Respond using Markdown.`;
 
 export const modelOptions: ModelOptions[] = [
+  'starcoder2-15b',
+  'openchat_3.5',
+  'lzlv_70b_fp16_hf',
+  'CodeLlama-34b-Instruct-hf',
+  'pygmalion-13b-4bit-128g',
+  'airoboros-70b',
+  'Mixtral-8x7B-Instruct-v0.1',
+  'Mistral-7B-Instruct-v0.1',
+  'dolphin-2.6-mixtral-8x7b',
+  'Llama-2-7b-chat-hf',
+  'CodeLlama-70b-Instruct-hf',
+  'Llama-2-70b-chat-hf',
+  'airoboros-l2-70b-gpt4-1.4.1',
+  'Llama-2-13b-chat-hf',
+  'gemma-7b',
+  'llava-1.5-7b-hf',
   'gpt-3.5-turbo',
   'gpt-3.5-turbo-16k',
-  'gpt-3.5-turbo-1106',
-  'gpt-3.5-turbo-0125',
   'gpt-4',
-  'gpt-4-32k',
-  'gpt-4-1106-preview',
-  'gpt-4-0125-preview'
-  // 'gpt-3.5-turbo-0301',
-  // 'gpt-4-0314',
-  // 'gpt-4-32k-0314',
+  'gpt-4-turbo',
+  'claude-3-sonnet',
+  'claude-3-haiku',
+  'claude-instant-100k',
+  'claude-instant',
+  'gemini-pro'
 ];
 
 export const defaultModel = 'gpt-3.5-turbo';
