@@ -47,22 +47,32 @@ export const modelOptions: ModelOptions[] = [
 
 export const defaultModel = 'claude-3-sonnet';
 
-export const modelMaxToken = {
-  'gpt-3.5-turbo': 4096,
-  'gpt-3.5-turbo-0301': 4096,
-  'gpt-3.5-turbo-0613': 4096,
-  'gpt-3.5-turbo-16k': 16384,
-  'gpt-3.5-turbo-16k-0613': 16384,
-  'gpt-3.5-turbo-1106': 16384,
-  'gpt-3.5-turbo-0125': 16384,
-  'gpt-4': 8192,
-  'gpt-4-0314': 8192,
-  'gpt-4-0613': 8192,
-  'gpt-4-32k': 32768,
-  'gpt-4-32k-0314': 32768,
-  'gpt-4-32k-0613': 32768,
-  'gpt-4-1106-preview': 128000,
-  'gpt-4-0125-preview': 128000,
+const modelMaxToken = {
+  "starcoder2-15b": 5120,
+  "openchat_3.5": 4096,
+  "lzlv_70b_fp16_hf": 7168,
+  "CodeLlama-34b-Instruct-hf": 4096,
+  "pygmalion-13b-4bit-128g": 8192,
+  "airoboros-70b": 8192,
+  "Mixtral-8x7B-Instruct-v0.1": 8192,
+  "Mistral-7B-Instruct-v0.1": 8192,
+  "dolphin-2.6-mixtral-8x7b": 8192,
+  "Llama-2-7b-chat-hf": 8192,
+  "CodeLlama-70b-Instruct-hf": 8192,
+  "Llama-2-70b-chat-hf": 8192,
+  "airoboros-l2-70b-gpt4-1.4.1": 8192,
+  "Llama-2-13b-chat-hf": 8192,
+  "gemma-7b": 8192,
+  "llava-1.5-7b-hf": 8192,
+  "gpt-3.5-turbo": 4096,
+  "gpt-3.5-turbo-16k": 16384,
+  "gpt-4": 8192,
+  "gpt-4-turbo": 8192,
+  "claude-3-sonnet": 4096,
+  "claude-3-haiku": 4096,
+  "claude-instant-100k": 8192,
+  "claude-instant": 4096,
+  "gemini-pro": 8192
 };
 
 export const modelCost = {
