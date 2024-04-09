@@ -43,7 +43,7 @@ export const modelOptions: ModelOptions[] = [
   'gemini-pro'
 ];
 
-export const defaultModel = 'claude-3-sonnet';
+export const defaultModel = 'Mixtral-8x7B-Instruct-v0.1';
 
 export const modelMaxToken = {
   "starcoder2-15b": 5120,
