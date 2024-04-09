@@ -64,13 +64,13 @@ export const modelMaxToken = {
   "llava-1.5-7b-hf": 4000,
   "gpt-3.5-turbo": 4000,
   "gpt-3.5-turbo-16k": 16000,
-  "gpt-4": 8192,
-  "gpt-4-turbo": 8192,
-  "claude-3-sonnet": 4096,
-  "claude-3-haiku": 4096,
+  "gpt-4": 8000,
+  "gpt-4-turbo": 128000,
+  "claude-3-sonnet": 200000,
+  "claude-3-haiku": 200000,
   "claude-instant-100k": 100000,
-  "claude-instant": 4096,
-  "gemini-pro": 8192
+  "claude-instant": 8000,
+  "gemini-pro": 30000
 };
 
 export const modelCost = {
