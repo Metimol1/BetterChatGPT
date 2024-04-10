@@ -44,7 +44,7 @@ export const modelOptions: ModelOptions[] = [
   'gemini-pro'
 ];
 
-export const defaultModel = 'Mixtral-8x7B-Instruct-v0.1';
+export const defaultModel = 'dbrx-instruct';
 
 export const modelMaxToken = {
   "starcoder2-15b": 16000,
@@ -97,6 +97,10 @@ export const modelCost = {
     completion: { price: 0.0, unit: 1000 },
   },
   "airoboros-70b": {
+    prompt: { price: 0.0, unit: 1000 },
+    completion: { price: 0.0, unit: 1000 },
+  },
+  "dbrx-instruct": {
     prompt: { price: 0.0, unit: 1000 },
     completion: { price: 0.0, unit: 1000 },
   },
