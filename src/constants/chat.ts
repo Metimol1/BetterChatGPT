@@ -32,6 +32,7 @@ export const modelOptions: ModelOptions[] = [
   'Llama-2-70b-chat-hf',
   'Llama-2-13b-chat-hf',
   'gemma-7b',
+  'gemma-1.1-7b-it',
   'llava-1.5-7b-hf',
   'gpt-3.5-turbo',
   'gpt-3.5-turbo-16k',
@@ -63,6 +64,7 @@ export const modelMaxToken = {
   "Llama-2-70b-chat-hf": 4000,
   "Llama-2-13b-chat-hf": 4000,
   "gemma-7b": 8000,
+  "gemma-1.1-7b-it": 8000,
   "llava-1.5-7b-hf": 4000,
   "gpt-3.5-turbo": 4000,
   "gpt-3.5-turbo-16k": 16000,
@@ -137,6 +139,10 @@ export const modelCost = {
     completion: { price: 0.0, unit: 1000 },
   },
   "gemma-7b": {
+    prompt: { price: 0.0, unit: 1000 },
+    completion: { price: 0.0, unit: 1000 },
+  },
+  "gemma-1.1-7b-it": {
     prompt: { price: 0.0, unit: 1000 },
     completion: { price: 0.0, unit: 1000 },
   },
