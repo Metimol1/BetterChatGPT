@@ -36,8 +36,7 @@ export const modelOptions: ModelOptions[] = [
   'llava-1.5-7b-hf',
   'gpt-3.5-turbo',
   'gpt-3.5-turbo-16k',
-  'gpt-4',
-  'gpt-4-turbo',
+  'net-gpt-3.5-turbo',
   'claude-3-sonnet',
   'claude-3-haiku',
   'claude-instant-100k',
@@ -68,8 +67,7 @@ export const modelMaxToken = {
   "llava-1.5-7b-hf": 4000,
   "gpt-3.5-turbo": 4000,
   "gpt-3.5-turbo-16k": 16000,
-  "gpt-4": 8000,
-  "gpt-4-turbo": 128000,
+  "net-gpt-3.5-turbo": 4000,
   "claude-3-sonnet": 200000,
   "claude-3-haiku": 200000,
   "claude-instant-100k": 100000,
@@ -158,11 +156,7 @@ export const modelCost = {
     prompt: { price: 0.0, unit: 1000 },
     completion: { price: 0.0, unit: 1000 },
   },
-  "gpt-4": {
-    prompt: { price: 0.0, unit: 1000 },
-    completion: { price: 0.0, unit: 1000 },
-  },
-  "gpt-4-turbo": {
+  "net-gpt-3.5-turbo": {
     prompt: { price: 0.0, unit: 1000 },
     completion: { price: 0.0, unit: 1000 },
   },
