@@ -57,6 +57,7 @@ export type ModelOptions =
   | 'pygmalion-13b-4bit-128g'
   | 'airoboros-70b'
   | 'dbrx-instruct'
+  | 'zephyr-orpo-141b-A35b-v0.1'
   | 'Mixtral-8x7B-Instruct-v0.1'
   | 'Mistral-7B-Instruct-v0.1'
   | 'Mistral-7B-Instruct-v0.2'
