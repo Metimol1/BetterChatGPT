@@ -23,6 +23,7 @@ export const modelOptions: ModelOptions[] = [
   'pygmalion-13b-4bit-128g',
   'airoboros-70b',
   'dbrx-instruct',
+  'zephyr-orpo-141b-A35b-v0.1',
   'Mixtral-8x7B-Instruct-v0.1',
   'Mistral-7B-Instruct-v0.1',
   'Mistral-7B-Instruct-v0.2',
@@ -44,7 +45,7 @@ export const modelOptions: ModelOptions[] = [
   'gemini-pro'
 ];
 
-export const defaultModel = 'dbrx-instruct';
+export const defaultModel = 'zephyr-orpo-141b-A35b-v0.1';
 
 export const modelMaxToken = {
   "starcoder2-15b": 16000,
@@ -54,6 +55,7 @@ export const modelMaxToken = {
   "pygmalion-13b-4bit-128g": 2000,
   "airoboros-70b": 4000,
   "dbrx-instruct": 132000,
+  "zephyr-orpo-141b-A35b-v0.1": 64000,
   "Mixtral-8x7B-Instruct-v0.1": 32000,
   "Mistral-7B-Instruct-v0.1": 32000,
   "Mistral-7B-Instruct-v0.2": 32000,
@@ -101,6 +103,10 @@ export const modelCost = {
     completion: { price: 0.0, unit: 1000 },
   },
   "dbrx-instruct": {
+    prompt: { price: 0.0, unit: 1000 },
+    completion: { price: 0.0, unit: 1000 },
+  },
+  "zephyr-orpo-141b-A35b-v0.1": {
     prompt: { price: 0.0, unit: 1000 },
     completion: { price: 0.0, unit: 1000 },
   },
