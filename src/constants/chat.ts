@@ -28,6 +28,8 @@ export const modelOptions: ModelOptions[] = [
   'Mistral-7B-Instruct-v0.1',
   'Mistral-7B-Instruct-v0.2',
   'dolphin-2.6-mixtral-8x7b',
+  'WizardLM-2-8x22B',
+  'WizardLM-2-7B',
   'Llama-2-7b-chat-hf',
   'CodeLlama-70b-Instruct-hf',
   'Llama-2-70b-chat-hf',
@@ -45,7 +47,7 @@ export const modelOptions: ModelOptions[] = [
   'gemini-pro'
 ];
 
-export const defaultModel = 'zephyr-orpo-141b-A35b-v0.1';
+export const defaultModel = 'WizardLM-2-8x22B';
 
 export const modelMaxToken = {
   "starcoder2-15b": 16000,
@@ -60,6 +62,8 @@ export const modelMaxToken = {
   "Mistral-7B-Instruct-v0.1": 32000,
   "Mistral-7B-Instruct-v0.2": 32000,
   "dolphin-2.6-mixtral-8x7b": 32000,
+  "WizardLM-2-8x22B": 64000,
+  "WizardLM-2-7B": 32000,
   "Llama-2-7b-chat-hf": 4000,
   "CodeLlama-70b-Instruct-hf": 4000,
   "Llama-2-70b-chat-hf": 4000,
@@ -123,6 +127,14 @@ export const modelCost = {
     completion: { price: 0.0, unit: 1000 },
   },
   "dolphin-2.6-mixtral-8x7b": {
+    prompt: { price: 0.0, unit: 1000 },
+    completion: { price: 0.0, unit: 1000 },
+  },
+  "WizardLM-2-8x22B": {
+    prompt: { price: 0.0, unit: 1000 },
+    completion: { price: 0.0, unit: 1000 },
+  },
+  "WizardLM-2-7B": {
     prompt: { price: 0.0, unit: 1000 },
     completion: { price: 0.0, unit: 1000 },
   },
