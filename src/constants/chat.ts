@@ -28,8 +28,8 @@ export const modelOptions: ModelOptions[] = [
   'Mistral-7B-Instruct-v0.1',
   'Mistral-7B-Instruct-v0.2',
   'dolphin-2.6-mixtral-8x7b',
-  'WizardLM-2-8x22B',
-  'WizardLM-2-7B',
+  'Llama-3-70B-Instruct',
+  'Llama-3-8B-Instruct',
   'Llama-2-7b-chat-hf',
   'CodeLlama-70b-Instruct-hf',
   'Llama-2-70b-chat-hf',
@@ -62,8 +62,8 @@ export const modelMaxToken = {
   "Mistral-7B-Instruct-v0.1": 32000,
   "Mistral-7B-Instruct-v0.2": 32000,
   "dolphin-2.6-mixtral-8x7b": 32000,
-  "WizardLM-2-8x22B": 64000,
-  "WizardLM-2-7B": 32000,
+  "Llama-3-70B-Instruct": 64000,
+  "Llama-3-8B-Instruct": 32000,
   "Llama-2-7b-chat-hf": 4000,
   "CodeLlama-70b-Instruct-hf": 4000,
   "Llama-2-70b-chat-hf": 4000,
@@ -130,11 +130,11 @@ export const modelCost = {
     prompt: { price: 0.0, unit: 1000 },
     completion: { price: 0.0, unit: 1000 },
   },
-  "WizardLM-2-8x22B": {
+  "Llama-3-70B-Instruct": {
     prompt: { price: 0.0, unit: 1000 },
     completion: { price: 0.0, unit: 1000 },
   },
-  "WizardLM-2-7B": {
+  "Llama-3-8B-Instruct": {
     prompt: { price: 0.0, unit: 1000 },
     completion: { price: 0.0, unit: 1000 },
   },
