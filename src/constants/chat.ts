@@ -47,7 +47,7 @@ export const modelOptions: ModelOptions[] = [
   'gemini-pro'
 ];
 
-export const defaultModel = 'WizardLM-2-8x22B';
+export const defaultModel = 'Llama-3-70B-Instruct';
 
 export const modelMaxToken = {
   "starcoder2-15b": 16000,
